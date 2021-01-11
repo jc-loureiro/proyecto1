@@ -1,0 +1,79 @@
+
+@import "colores";
+@import "tipografias";
+
+
+
+/*variables*/
+
+
+
+header
+{ 
+    background-color: $color-flaneur;
+    margin: 0;
+    height: 6rem;
+    display: flex;
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
+      
+        .header__h1
+         {
+        font-size: $tituloh1
+         }
+
+        .header__nav 
+            {
+            
+            width: 35%;
+            display: flex;
+            list-style: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            text-align: center;
+            position: absolute;
+            top: 2.5rem;
+            right:  3rem;
+            justify-content: space-between;
+             }
+        a {
+                text-decoration: none;
+                color: $color-blanco;
+            }
+
+}
+
+body
+    {   background-color: $color-blanco;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        justify-content: center;
+        text-align: center;
+         .article__1 {
+             display: block;
+             text-align: center;
+             padding: 2rem;
+        }
+
+        .article__1 {
+            padding: 10PX;
+        }
+
+}
+
+footer
+{
+    background-color: $color-verde;
+    color: $color-blanco;
+    height: 7rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    vertical-align: center;
+    align-items: center;
+    padding: 3rem;
+
+}
